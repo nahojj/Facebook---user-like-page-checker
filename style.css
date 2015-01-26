@@ -1,0 +1,125 @@
+/*Base styles*/
+html,
+button,
+input,
+select,
+textarea {
+		color: #222;
+}
+
+html {
+		font-size: 1em;
+		line-height: 1.4;
+}
+
+::-moz-selection {
+		background: #b3d4fc;
+		text-shadow: none;
+}
+
+::selection {
+		background: #b3d4fc;
+		text-shadow: none;
+}
+
+hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #ccc;
+		margin: 1em 0;
+		padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+		vertical-align: middle;
+}
+
+fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+}
+
+textarea {
+		resize: vertical;
+}
+
+/* LÈ STYLE */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+h1, p, ol, ul, li, a, span {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+main.main {
+	margin-top: 50px;
+}
+
+.main .jumbotron h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.main .jumbotron ol li {
+	font-size: 18px;
+}
+
+.container {
+	max-width: 810px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+#header {
+	width: 100%;
+	color: #fff;
+	background-color: #b6232a;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 15px 0;
+	font-weight: 400;
+}
+
+
+.contest form {
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.contest input#email {
+	width: 90%;
+	padding: 15px;
+	outline: 0;
+}
+
+.contest input#tavla {
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#footer {
+	padding: 15px 0;
+	border-top: 1px solid #D2D2D2;
+	color: #BABABA;
+	text-align: center;
+}
